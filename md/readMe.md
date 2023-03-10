@@ -4,32 +4,36 @@ Git의 설치 방법과 사용방법을 정리한다.
 ## GitHub Desktop 설치
 참고 : https://overit.tistory.com/entry/GitHub-Desltop-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AC%EC%9A%A9
 
-1) 다운로드  
-![다운로드 이미지](../howgitdesk.github.io/images/01_GitHubDeskTop%20다운로드.png)  
+1) 다운로드
+
+
+![다운로드 이미지](../howgitdesk.github.io/images/01_GitHubDeskTop%20다운로드.png){: width="1280" height ="720"}  
+
+
 다음의 링크에 들어가 'Download for Windows (64bit)' 버튼을 눌러 GitHub Desktop을 다운로드 받는다.  
 GitHub Desktop : https://desktop.github.com/
 
-2) 설치 진행  
+1) 설치 진행  
 다운로드 받은 설치 파일을 실행하여 진행한다.
 
 
 1)) 다양한 경로(GitHub 뿐만 아니라 Private 환경의 Git)에서 사용하려면, 하단의 'Skip this step' 을 눌러서 넘어간다. 
 
 
-![설치 이미지1](../howgitdesk.github.io/images/02_설치_페이지_01.png)  
+![설치 이미지1](../howgitdesk.github.io/images/02_설치_페이지_01.png){: width="585" height ="406"}  
 
 
 2)) 이름과 이메일을 입력하라고 나오는데 여기서 GitLab, Git에서 사용하는 이름과 이메일을 넣어 준다.
 다 작성한뒤 'Finish'를 눌러 진행한다.
 
 
-![설치 이미지2](../howgitdesk.github.io/images/03_설치_페이지_02.png)  
+![설치 이미지2](../howgitdesk.github.io/images/03_설치_페이지_02.png){: width="585" height ="406"}   
 
 
 3)) 3가지 항목이 나오게 된다. 내용을 말하자면 다음과 같고, 상황에 맡게 선택하여 진행하면 된다. 여기서는 기본인 'Add ad Exting Repository from your hard drive...' 를 선택해보겠다. 
 
 
-![설치 이미지3](../howgitdesk.github.io/images/04_설치_페이지_03.png)  
+![설치 이미지3](../howgitdesk.github.io/images/04_설치_페이지_03.png){: width="585" height ="406"}   
 
 
 - Clone a repository from the internet... (인터넷에서 기존 리포지토리를 복사)
@@ -40,11 +44,11 @@ GitHub Desktop : https://desktop.github.com/
 4)) 'Choose...'를 눌러서 Git 을 관리중인 폴더(해당 폴더 아래의 모든 폴더의 변화된 값을 감지하기 때문에, 특정 프로젝트 폴더를 선택해서 Add 하는 것을 추천한다. 또한 나중에 repository를 추가할 수 있다.) 를 선택하고 'Add repository'를 눌러 추가한다.    
 
 
-![설치 이미지4](../howgitdesk.github.io/images/05_설치_페이지_04.png)   
+![설치 이미지4](../howgitdesk.github.io/images/05_설치_페이지_04.png){: width="585" height ="406"}    
 
 
 5)) 추가가 정상적으로 시도 되었다면 다음과 같은 창이 나오게 된다.  
-![설치 이미지5](../howgitdesk.github.io/images/06_설치_페이지_05.png)
+![설치 이미지5](../howgitdesk.github.io/images/06_설치_페이지_05.png){: width="585" height ="406"} 
 
 
 ### Git의 원리
@@ -63,33 +67,38 @@ Git은 위와 같이 사용되는데 작업 공간에서 작업하던 프로젝�
 
 #### GitHub Desktop 사용
 
-1) 내용 Commit, Push 하기   
+1) repository 생성하기
+
+
+
+
+2) 내용 Commit, Push 하기   
 변경된 내용이나 자신이 작성한 내용을 원격에 저장하고자 할 때, Commit을 할 수 있다.
 
 
 1))  프로젝트 안의 내용이 변경되면 다음과 같이 수정된 내용을 볼 수 있다.
 
 
-![Commit1](../howgitdesk.github.io/images/07_Commit_01.png)  
+![Commit1](../howgitdesk.github.io/images/07_Commit_01.png){: width="585" height ="406"}   
 
 
 2)) 변경된 점과 내용을 정리하여 다음과 같이 좌측 하단에 내용을 작성하고 'Commit to main'을 선택한다.
 
 
-![Commit2](../howgitdesk.github.io/images/08_Commit_02.png)  
+![Commit2](../howgitdesk.github.io/images/08_Commit_02.png){: width="585" height ="406"}     
 
 
 3)) Commit이 완료가 되었다면 현재 Git의 Local 저장소에 저장이 되었다는 의미며, 이를 원격 저장소에 올리기 위해 Push를 해주어야 한다. 좌측 상단의 'Repositoy/Push' 를 찾아 누른다.
 
 
-![Commit3](../howgitdesk.github.io/images/09_Commit_03.png) 
+![Commit3](../howgitdesk.github.io/images/09_Commit_03.png){: width="585" height ="406"}    
 
 
 4)) 처음 Commit을 하게 되면 Git과의 연결을 묻는다. Git Lab에서 등록한 Username 과 Password를 작성하여 
 'Save and retry'를 눌러 업로드 하게 된다.
 
 
-![Commit4](../howgitdesk.github.io/images/10_Commit_04.png) 
+![Commit4](../howgitdesk.github.io/images/10_Commit_04.png){: width="585" height ="406"}    
 
 
 2) 내용 Pull 하기 
@@ -99,7 +108,7 @@ Git은 위와 같이 사용되는데 작업 공간에서 작업하던 프로젝�
 1)) 좌측 상단의 'Repository/Pull'을 눌러 업데이트를 진행한다.
 
 
-![Pull1](../howgitdesk.github.io/images/11_Pull_01.png) 
+![Pull1](../howgitdesk.github.io/images/11_Pull_01.png){: width="585" height ="406"}    
 
 
 3) Clone, 원격 저장소의 내용을 현재 PC에 복사하기
@@ -109,7 +118,7 @@ Git은 위와 같이 사용되는데 작업 공간에서 작업하던 프로젝�
 1)) 좌측 상단의 'File/Clone repository...'를 누른다.
 
 
-![Clone1](../howgitdesk.github.io/images/12_Clone_01.png) 
+![Clone1](../howgitdesk.github.io/images/12_Clone_01.png){: width="585" height ="406"}    
 
 
 2)) 그럼 다음과 같은 화면이 나오게 되는 이는 복사 받고 싶은 repository를 선택하는 화면이다. 
@@ -117,24 +126,24 @@ GitHub에 원하는 repository가 있다면 'GitHub.com' Tab의 원하는 프로
 하단의 Local path를 'Choose...' 를 누르거나 작성하여 현재 복사될 폴더의 위치를 선택한 뒤, 'Clone'을 눌러 저장한다.
 
 
-![Clone2](../howgitdesk.github.io/images/13_Clone_02.png)
+![Clone2](../howgitdesk.github.io/images/13_Clone_02.png){: width="585" height ="406"}   
 
 
-![Clone3](../howgitdesk.github.io/images/14_Clone_03.png)
+![Clone3](../howgitdesk.github.io/images/14_Clone_03.png){: width="585" height ="406"}   
 
 
-![Clone4](../howgitdesk.github.io/images/15_Clone_04.png) 
+![Clone4](../howgitdesk.github.io/images/15_Clone_04.png){: width="1280" height ="720"}    
 
 3)) Clone이 잘되었다면 다음과 같은 화면을 지난다.
 
 
-![Clone5](../howgitdesk.github.io/images/16_Clone_05.png) 
+![Clone5](../howgitdesk.github.io/images/16_Clone_05.png){: width="585" height ="406"}    
 
 
 4)) Clone이 완료가 되었다면 다음과 같은 화면이 나온다.
 
 
-![Clone6](../howgitdesk.github.io/images/17_Clone_06.png) 
+![Clone6](../howgitdesk.github.io/images/17_Clone_06.png){: width="585" height ="406"}    
 
 
 4) branch 
@@ -145,28 +154,28 @@ GitHub에 원하는 repository가 있다면 'GitHub.com' Tab의 원하는 프로
 상단 중간에 Current branch를 눌러 'New branch' 버튼을 누른다.
 
 
-![branch1](../howgitdesk.github.io/images/18_Branch_01.png) 
+![branch1](../howgitdesk.github.io/images/18_Branch_01.png){: width="585" height ="406"}    
 
 
 2)) branch 이름 정하기 
 만들어질 branch의 이름을 적는다. 주로 기능 추가 같은 목적으로 branch를 만들기 때문에 기능의 이름을 적어 완성하는 것이 좋다. 이름 작성이 되었다면 'Create branch'를 눌러 brach를 생성한다. ex) QR 생성 기능 추가의 목적을 가진 brach의 이름 'gr_generate'
 
 
-![branch2](../howgitdesk.github.io/images/19_Branch_02.png) 
+![branch2](../howgitdesk.github.io/images/19_Branch_02.png){: width="585" height ="406"}    
 
 
 3)) branch가 완성 되었다면
 다음과 같이 상단의 branch 에 새로 작성한 branch의 이름이 작성되었다면 'local' 상태에서 branch가 생성된 것이다. 원격 저장소에 바로 branch를 만들고 싶다면 화면 중앙에 보이는 'Publish branch'를 누른다.
 
 
-![branch3](../howgitdesk.github.io/images/20_Branch_03.png) 
+![branch3](../howgitdesk.github.io/images/20_Branch_03.png){: width="585" height ="406"}    
 
 
 4)) branch 관리 
 다음과 같이 Current branch의 이름이 원하는 brach에 가 있다면 현재 위치하고 있는 local 폴더에서 작성한 내용을 현재 branch로 Commit, Push, Pull 할수 있다. branch는 새로운 기능이나 별개의 프로젝트로 가져가는 경우도 있으나, 다 작성이 된 후 main 프로젝트에 하나로 종합(merge)될 수도 있다.
 
 
-![branch4](../howgitdesk.github.io/images/21_Branch_04.png) 
+![branch4](../howgitdesk.github.io/images/21_Branch_04.png){: width="585" height ="406"}    
 
 
 5) branch Merge
@@ -182,14 +191,14 @@ Main으로 Merge 하는 방식은 현재 GitLab을 사용해서 진행하고 있
 다음과 같은 'Git Lab'의 좌측 화면에서 'Merge requests'를 눌러 Merge Request 화면을 들어가서 'New merge request'를 누른다.
 
 
-![merge1](../howgitdesk.github.io/images/22_Merge_01.png)
+![merge1](../howgitdesk.github.io/images/22_Merge_01.png){: width="1113" height ="342"}   
 
 
 3)) Merge Request - 02
 좌측의 'Source branch'는 main과 Merge될 branch를 선택하고 우측에서는 같이 합치게 될 'Target branch'를 선택한다. 선택이 되었다면 'Compare branches and continue' 버튼을 눌러 진행한다.
 
 
-![merge2](../howgitdesk.github.io/images/23_Merge_02.png)
+![merge2](../howgitdesk.github.io/images/23_Merge_02.png){: width="811" height ="235"}
 
 
 4)) Merge Request - 03
@@ -219,14 +228,14 @@ Merge 할 내용을 세밀하게 작성하게 되는데 각 내용을 설명해�
 각 내용을 작성하고 난 뒤, 'Create merge request'를 눌러 Merge를 요청한다.
 
 
-![merge3](../howgitdesk.github.io/images/23_Merge_03.png)
+![merge3](../howgitdesk.github.io/images/23_Merge_03.png){: width="715" height ="587"}
 
 
 5)) Merge review 하기 
 Merge request를 하였을 때 Merge 할 내용을 점검하는 순간이 필요한데, 여기서 Review 를 하게 되는 것이다. review 할 수 있는 건 Reviewer로 등록되거나 Asignee 로 등록된 사용자로, 둘의 Approve 가 있어야 Merge 될 수 있다. 다음 이미지를 보면 위에 있는 'Commits'에서 Commit들의 내용을 확인할 수 있고 'Changed'를 통해 작성된 코드의 변경 요소를 확인할 수 있다.
 
 
-![merge4](../howgitdesk.github.io/images/24_Merge_04.png)
+![merge4](../howgitdesk.github.io/images/24_Merge_04.png){: width="311" height ="308"}
 
 
 6)) 내용이 너무 많을 경우나 문제가 있을 경우 Conflict가 발생할 수 있다. 그럴 경우, Conflict를 해결해야 Merge를 할 수 있어, 상단의 'Resolve conflicts'를 눌러 Conflict 내용들을 확인한다. 
@@ -244,7 +253,7 @@ Head// our changes => 현재 branch로 추가되거나 변경된 코드
 7)) Conflict가 끝나고 리뷰가 끝나게 되었다면 다시 Merge Request 화면에서 Approve 버튼이 활성화 되어 누를 수 있게 된다. 이를 Reviewer 와 Assignee가 둘다 Approve를 하게 되면 Merge가 된다.
 
 
-![merge4](../howgitdesk.github.io/images/24_Merge_04.png)
+![merge4](../howgitdesk.github.io/images/24_Merge_04.png){: width="311" height ="308"}
 
 
 ##### 현재 작성 내용 여기 까지 (23/03/08) 내용 추가나 수정이 필요할 경우 업데이트 할 예정
