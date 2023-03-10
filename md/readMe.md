@@ -7,7 +7,7 @@ Git의 설치 방법과 사용방법을 정리한다.
 1) 다운로드
 
 
-<img src="../howgitdesk.github.io/images/01_GitHubDeskTop%20다운로드.png" height="720px" width="1280px" align="left">
+<img src="../howgitdesk.github.io/images/01_GitHubDeskTop%20다운로드.png" height="720px" width="1280px">
 
 
 다음의 링크에 들어가 'Download for Windows (64bit)' 버튼을 눌러 GitHub Desktop을 다운로드 받는다.  
@@ -20,7 +20,7 @@ GitHub Desktop : https://desktop.github.com/
 1)) 다양한 경로(GitHub 뿐만 아니라 Private 환경의 Git)에서 사용하려면, 하단의 'Skip this step' 을 눌러서 넘어간다. 
 
 
-<img src="../howgitdesk.github.io/images/02_설치_페이지_01.png" height="585px" width="406px" align="left">
+<img src="../howgitdesk.github.io/images/02_설치_페이지_01.png" height="585px" width="406px">
 
 
 2)) 이름과 이메일을 입력하라고 나오는데 여기서 GitLab, Git에서 사용하는 이름과 이메일을 넣어 준다.
