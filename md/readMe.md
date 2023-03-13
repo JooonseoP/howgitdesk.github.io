@@ -184,7 +184,7 @@ ex) C:\Joonseo_2022\Works\test\front-test-app -> C:\Joonseo_2022\Works\test
 <img src="../howgitdesk.github.io/images/39_CreateRepository_10.png" height="450px" width="600px">
 
 
-1) 내용 Commit, Push 하기   
+3) 내용 Commit, Push 하기   
 변경된 내용이나 자신이 작성한 내용을 원격에 저장하고자 할 때, Commit을 할 수 있다.
 
 
@@ -213,7 +213,7 @@ ex) C:\Joonseo_2022\Works\test\front-test-app -> C:\Joonseo_2022\Works\test
 <img src="../howgitdesk.github.io/images/10_Commit_04.png" height="450px" width="600px"> 
 
 
-2) 내용 Pull 하기 
+4) 내용 Pull 하기 
 본인이 작성한 내용보다 원격의 내용이 좀 더 진전이 있을 때나, 외부에서 작성한 내용으로 현재 프로젝트 내용을 Update 하려 할 때 Pull을 사용해야 한다.
 
 
@@ -223,7 +223,7 @@ ex) C:\Joonseo_2022\Works\test\front-test-app -> C:\Joonseo_2022\Works\test
 <img src="../howgitdesk.github.io/images/11_Pull_01.png" height="450px" width="600px">
 
 
-3) Clone, 원격 저장소의 내용을 현재 PC에 복사하기
+5) Clone, 원격 저장소의 내용을 현재 PC에 복사하기
 원격의 프로젝트를 현재 PC에 내리받아 작성하고 싶을 때 사용하는 기능이다.
 
 
@@ -259,7 +259,7 @@ GitHub에 원하는 repository가 있다면 'GitHub.com' Tab의 원하는 프로
 <img src="../howgitdesk.github.io/images/17_Clone_06.png" height="450px" width="600px">
 
 
-4) branch 
+6) branch 
 프로젝트를 여럿이서 작성하거나, 추가 적인 기능이 있을 때 원본을 두고 원본에서 나온 다른 '가지(branch)'를 만들어 관리를 할 때 사용하는 기능이다. 
 
 
@@ -291,7 +291,7 @@ GitHub에 원하는 repository가 있다면 'GitHub.com' Tab의 원하는 프로
 <img src="../howgitdesk.github.io/images/21_Branch_04.png" height="450px" width="600px">
 
 
-5) branch Merge
+7) branch Merge
 Main으로 Merge 하는 방식은 현재 GitLab을 사용해서 진행하고 있다. 그래서 여기 GitHub Desktop의 설명과는 약간 이질 성이 있으나 추가로 설명하고자 한다. 
 참고 : https://www.bearpooh.com/77
 
