@@ -205,7 +205,7 @@ Main으로 Merge 하는 방식은 현재 GitLab을 사용해서 진행하고 있
 좌측의 'Source branch'는 main과 Merge될 branch를 선택하고 우측에서는 같이 합치게 될 'Target branch'를 선택한다. 선택이 되었다면 'Compare branches and continue' 버튼을 눌러 진행한다.
 
 
-<img src="../howgitdesk.github.io/images/23_Merge_03.png" height="230px" width="800px">
+<img src="../howgitdesk.github.io/images/23_Merge_03.png" height="330px" width="1000px">
 
 
 4)) Merge Request - 03
