@@ -36,8 +36,50 @@
     <li>원격 저장소 : 로컬 저장소의 파일들이 push를 통해 원격 저장소에 올라간다.  </li>
     </ul>
     <h4 id="github-desktop-">GitHub Desktop 사용</h4>
-    <p>1) repository 생성하기</p>
-    <p>2) 내용 Commit, Push 하기<br>변경된 내용이나 자신이 작성한 내용을 원격에 저장하고자 할 때, Commit을 할 수 있다.</p>
+    <p>1) Access Tokens 생성하기 </p>
+    <p>1))Git을 사용하다 보면,  이용시 본인의 계정임을 확인하기 위하여 Access Totken을 활용한다. 그 액세스 토큰을 만드는 방법을 간단하게 설명한다. (참고 : <a href="https://bskyvision.com/entry/git-access-token-%EB%B0%9C%EA%B8%89-%EB%B0%9B%EB%8A%94-%EB%B0%A9%EB%B2%95">https://bskyvision.com/entry/git-access-token-%EB%B0%9C%EA%B8%89-%EB%B0%9B%EB%8A%94-%EB%B0%A9%EB%B2%95</a>)</p>
+    <p>GitLab의 화면으로 와서 Setting을 클릭한다. </p>
+    <p><img src="../howgitdesk.github.io/images/25_AccessTokens_01.png" height="720px" width="1280px"></p>
+    <p>2)) 화면 좌측에서 &#39;Access Tokens&#39;를 클릭한다.</p>
+    <p><img src="../howgitdesk.github.io/images/26_AccessTokens_02.png" height="720px" width="1280px"></p>
+    <p>3)) 화면 가운데, 이름과 Expires at (만료 날짜), 토큰에 부여할 범위를 선택한 뒤 하단의 &#39;Create personal access token&#39; 을 누른다.</p>
+    <p><img src="../howgitdesk.github.io/images/27_AccessTokens_03.png" height="720px" width="1280px"></p>
+    <p>4)) 생성이 되었다면 화면 상단의  &#39;Yor new personal access token&#39; 이 표시되고 이를 이용해 인증이 필요한 순간 Git Bash나 다른 프로그램 연동시 인증 키를 입력하라는 순간에 복사 해서 넣어주면 된다. 또 화면 하단에 보면 키를 생성한 목록을 확인할 수 있다.</p>
+    <p><img src="../howgitdesk.github.io/images/28_AccessTokens_04.png" height="720px" width="1280px"></p>
+    <p><img src="../howgitdesk.github.io/images/29_AccessTokens_05.png" height="720px" width="1280px"></p>
+    <p>2) Repository 생성하기 </p>
+    <p>1)) Git의 저장소를 만드는 방법을 설명한다. GitHub Desk Top 은 Git Lab에서 제작된 내용이 아니기 때문에 직접 Git Lab 내부에 Repository(원격 저장소)를 생성할 수 없다. 그렇기 때문에 Git Lab에서 직접 Repository를 생성한 뒤, GitHub Desktop으로 Cloen, 연동하여 사용하는 방법으로 설명하겠다. (참고 : <a href="https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&amp;blogId=mgveg&amp;logNo=221845207314">https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&amp;blogId=mgveg&amp;logNo=221845207314</a>)</p>
+    <p>2)) Git Lab에서 우측 상단 &#39;New project&#39;를 눌러 새로운 Repository를 생성한다 .</p>
+    <p><img src="../howgitdesk.github.io/images/30_CreateRepository_01.png" height="720px" width="1280px"></p>
+    <p>3)) 4개의 생성 옵션중 &#39;Create blank project&#39;를 눌러 빈 프로젝트를 생성하겠다.</p>
+    <p><img src="../howgitdesk.github.io/images/31_CreateRepository_02.png" height="720px" width="1280px"></p>
+    <p>4)) 프로젝트의 이름과 내용을 작성하는 화면이다. 각 내용에 맞게 빈칸을 입력한다.</p>
+    <p>1 - 프로젝트의 이름을 작성한다. (* 이름 작성 요령이 있다. 소문자를 기준으로 하고 구분은 bar를 사용한다. ex) test-console)</p>
+    <p>2 - Project URL, 보통 이름을 작성할 시 자동적으로 생성된다. but 직접 수정할 수도 있다.</p>
+    <p>3 - Visibility Level, 이 프로젝트를 공개할 level을 정한다. private로 하면 그룹으로 연관 되는 사용자들이 내용을 볼 수 있다. 회사의 프로젝트로 활용 될 것으로 보통 private를 선택한다. </p>
+    <p>4 - Project Configuration, </p>
+    <p>Initialize repository with a README : README 파일을 생성할 지 여부이다. 프로젝트에 아무것도 없게 시작하려면 해당 내용을 체크 하지 않고, 설명이 필요할 경우 README를 만들어  설명을 추가할 수 도 있다. </p>
+    <p>Enable Static Application Security Testing (SAST) : 코드의 보안성 검사를 시각적으로 보여주는 기능이나, 현재로는 크게 활용하지는 못하는 듯하다.  </p>
+    <p><img src="../howgitdesk.github.io/images/32_CreateRepository_03.png" height="720px" width="1280px"></p>
+    <p>5)) Project가 생성되었다면 &#39;Clone&#39; 을 눌러 &#39;Clone with HTTPS&#39;에 작성된 내용을 복사하거나 옆의 복사 버튼을 눌러 내용을 복사한다.</p>
+    <p><img src="../howgitdesk.github.io/images/33_CreateRepository_04.png" height="720px" width="1280px"></p>
+    <p>6)) GitHub Desktop으로 돌아와서 &#39;Clone repository&#39;를 누른다.</p>
+    <p><img src="../howgitdesk.github.io/images/34_CreateRepository_05.png" height="450px" width="600px"></p>
+    <p>7)) URL Tab을 누르고, 아까 복사한 내용을 &#39;URL or username/repository&#39; 에 붙여넣는다. 그 뒤, 아래의 &#39;Choose...&#39; 버튼을 눌러 local에 연결될 폴더를 찾아 넣고, &#39;Clone&#39; 버튼을 눌러 연동한다.</p>
+    <ul>
+    <li>clone할 폴더는 비어 있는 폴더를 선택하라고 경고문이 나오게 된다. 새 폴더를 생성하고 그 뒤 그 폴더를 선택하도록 하자. (폴더 경로에는 한글이 들어가는 경우에는 오류가 생길 수 있으므로 되도록 영어로 작성한다.)</li>
+    </ul>
+    <p><img src="../howgitdesk.github.io/images/35_CreateRepository_06.png" height="450px" width="600px"></p>
+    <p><img src="../howgitdesk.github.io/images/36_CreateRepository_07.png" height="450px" width="600px"></p>
+    <ul>
+    <li>위의 주소를 입력하면 아래의 local path에 폴더명이 저절로 입력된다. 이러면 만들은 폴더 아래에 또 새로운 &#39;프로젝트 명&#39;의 폴더가 생겨 그 아래에서 관리되기 때문에 폴더명을 삭제하고 원하는 폴더 까지만 입력한 뒤 &#39;Clone&#39; 버튼을 누르는 것이 편하다. </li>
+    </ul>
+    <p>ex) C:\Joonseo_2022\Works\test\front-test-app -&gt; C:\Joonseo_2022\Works\test</p>
+    <p><img src="../howgitdesk.github.io/images/37_CreateRepository_08.png" height="450px" width="600px"></p>
+    <p>8)) 생성한 폴더가 잘 생성되고, 폴더 안에 &#39;.git&#39; 까지 있으면 잘 생성된 것이다. 여기다 원하는 프로젝트를 작업할 수도 있고, 기존의 프로젝트를 붙여 넣기 하여 밑의 Commit 이나 Push로 관리해주면 된다. </p>
+    <p><img src="../howgitdesk.github.io/images/38_CreateRepository_09.png" height="450px" width="600px"></p>
+    <p><img src="../howgitdesk.github.io/images/39_CreateRepository_10.png" height="450px" width="600px"></p>
+    <p>1) 내용 Commit, Push 하기<br>변경된 내용이나 자신이 작성한 내용을 원격에 저장하고자 할 때, Commit을 할 수 있다.</p>
     <p>1))  프로젝트 안의 내용이 변경되면 다음과 같이 수정된 내용을 볼 수 있다.</p>
     <p><img src="../howgitdesk.github.io/images/07_Commit_01.png" height="450px" width="600px"></p>
     <p>2)) 변경된 점과 내용을 정리하여 다음과 같이 좌측 하단에 내용을 작성하고 &#39;Commit to main&#39;을 선택한다.</p>
